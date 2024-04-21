@@ -26,5 +26,6 @@ version calls 2 different recursive calls for the first fibonacci number
 then 2 more for the each of those calls and so on. The tail recursive version
 only makes one call so obviously this results in a different runtime.
 
-Since there is one process for each recursive call, this means that our
-worst case runtime is $\Theta (n)$ 
+Since there is one recursive call for each calculation of a fibonacci number, 
+this means that our function runs n times where n is the nth fibonacci number
+resulting in the worst case runtime of $\Theta (n)$ 
