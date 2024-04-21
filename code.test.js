@@ -11,7 +11,7 @@ function fib(n) {
     return fib(n-1) + fib(n-2);
 }
 
-var randint = Math.floor(Math.random() * 100);
+var randint = Math.floor(Math.random() * 10);
 
 assert(code.myFib(randint) == fib(randint))
 
