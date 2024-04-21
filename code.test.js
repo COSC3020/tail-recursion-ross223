@@ -13,5 +13,5 @@ function fib(n) {
 
 randint = Math.floor(Math.random() * 100);
 
-assert(code.myFib(randint) == fib(randint))
+assert(code.myFib(randint) == fib(randint));
 
