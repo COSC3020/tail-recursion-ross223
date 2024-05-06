@@ -14,4 +14,4 @@ function tailFib(num, fib1, fib2){
     return tailFib(num - 1, fib2, fib1 + fib2);
 }
 
-module.exports = {myFib, tailFib};
+module.exports = {myFib, tailFib};  // Jacob Morgan taught me how to do this module export thing for the testing
